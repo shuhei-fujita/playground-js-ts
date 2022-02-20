@@ -1,20 +1,15 @@
 // 再帰関数
 // 自分自身を呼び出す関数を再帰関数
-function sum(number1, number2) {
-    let count = 0;
 
-    function recursive() {
-        if (number1 >= number2) {
-            count++;
-            number1 = number1 - number2;
-            console.log(number1);
+// 階乗
+function sum(number) {
+    let result = 0;
 
-            recursive();
-        }
+    if (number <= 1) {
+        return result = result + 1;
     }
 
-    recursive();
-    return count;
+    return result = result + (number * sum(number - 1));
 }
 
-sum(10, 2);
+console.log(sum(3));
