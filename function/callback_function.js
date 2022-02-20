@@ -1,4 +1,5 @@
 // コールバック関数
+// 関数の引数に渡される関数
 setTimeout(
     function() {
         console.log('setTimeout');
