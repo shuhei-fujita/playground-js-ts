@@ -1,4 +1,4 @@
-const sum = require('../function/expression_function.js');
+const sum = require('../functions/expression_function.js');
 
 // 一つのtest
 test('adds 1 + 2 to equal 3', () => {

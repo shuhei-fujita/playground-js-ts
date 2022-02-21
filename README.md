@@ -1,17 +1,18 @@
 # playground-js
 
 ## ディレクトリ構成
-- function
+- functions
     - 関数宣言
     - 関数式
     - アロー関数
     - 再帰関数
     - コールバック関数
 
-- test
+- tests
     - ユニットテスト
 
 ## 実行方法
+`functions`ディレクトリにある`[ファイル名].js`を実行しています。
 ```js
 node [ファイル名].js
 ```
@@ -26,6 +27,7 @@ node arrow_function.js
 ```
 
 ## テスト実行方法
+`tests`ディレクトリにある`sum.test.js`を実行しています。
 ```js
 yarn test
 ```
@@ -41,9 +43,9 @@ $ jest
   console.log
     3
 
-      at Object.<anonymous> (function/expression_function.js:6:9)
+      at Object.<anonymous> (functions/expression_function.js:6:9)
 
- PASS  test/sum.test.js
+ PASS  tests/sum.test.js
   ✓ adds 1 + 2 to equal 3 (1 ms)
   ✓ adds 1 + 2 to equal 3 (1 ms)
   ✓ adds 1 + 20 to equal 21
@@ -52,7 +54,6 @@ $ jest
 Test Suites: 1 passed, 1 total
 Tests:       4 passed, 4 total
 Snapshots:   0 total
-Time:        0.207 s, estimated 1 s
+Time:        0.194 s, estimated 1 s
 Ran all test suites.
-✨  Done in 1.03s.
-```
+✨  Done in 0.78s.
