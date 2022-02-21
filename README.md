@@ -9,3 +9,15 @@
     - コールバック関数
 
 - test
+
+## 実行方法
+```js
+node [ファイル名].js
+```
+
+（例）
+```js
+node arrow_function.js
+
+2
+```
