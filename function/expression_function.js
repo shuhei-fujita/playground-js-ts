@@ -4,3 +4,5 @@ const sum = function(number1, number2) {
 }
 
 console.log(sum(1, 2));
+
+module.exports = sum;
