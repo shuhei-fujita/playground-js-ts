@@ -1,18 +1,27 @@
-# Runtime
-# https://playcode.io/1593412
+// Runtime
+// https://playcode.io/1593412
 
-const falsyValues = [false, 0, "", null, undefined, NaN];
-const truthyValues = [true, 1, -1, "hello", "0", "false", {}, [], function() {}];
+const values = [true, false, 1, -1, "hello", "0", "false", {}, [], function() {}, 0, "", null, undefined, NaN];
 
-falsyValues.forEach(value => {
-    if (!value) {
+console.log("Using == comparison:");
+values.forEach(value => {
+    if (value == true) {
+        console.log(`${value} is true`);
+    } else if (value == false) {
         console.log(`${value} is false`);
+    } else {
+        console.log(`${value} is neither true nor false`);
     }
 });
 
-truthyValues.forEach(value => {
-    if (value) {
+console.log("\nUsing === comparison:");
+values.forEach(value => {
+    if (value === true) {
         console.log(`${value} is true`);
+    } else if (value === false) {
+        console.log(`${value} is false`);
+    } else {
+        console.log(`${value} is neither true nor false`);
     }
 });
 
