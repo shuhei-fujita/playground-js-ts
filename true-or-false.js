@@ -1,3 +1,6 @@
+# Runtime
+# https://playcode.io/1593412
+
 const falsyValues = [false, 0, "", null, undefined, NaN];
 const truthyValues = [true, 1, -1, "hello", "0", "false", {}, [], function() {}];
 
