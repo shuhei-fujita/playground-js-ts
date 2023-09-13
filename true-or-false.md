@@ -1,3 +1,9 @@
+## Play Code
+
+https://playcode.io/1593412
+
+## Output
+
 | Value Type | Example Values | True or False |
 |------------|----------------|---------------|
 | **Falsy**  |                |               |
