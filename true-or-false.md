@@ -6,6 +6,14 @@ https://playcode.io/1593412
 ### Node.js
 
 ```
+tsc true-or-false.ts --outFile myOutput.js
+```
+
+```
+node myOutput.js
+```
+
+```
 node true-or-false.js
 ```
 
